@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Navigator",
+  "version": "1.0.0",
+  "description": "为 Gemini 超长对话提供实时、动态的大纲目录导航，支持一键平滑跳转。",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    },
+    "default_title": "Gemini Navigator"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
