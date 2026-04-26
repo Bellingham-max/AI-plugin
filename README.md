@@ -19,9 +19,9 @@
 | 插件名称 | 目标平台 | 当前状态 | 源码目录 |
 | :--- | :--- | :--- | :--- |
 | **Gemini Navigator** | `gemini.google.com` | 🟢 已完成 | `/gemini` |
-| **ChatGPT Navigator**| `chatgpt.com` | 🟡 规划中 | 待定 |
-| **Claude Navigator** | `claude.ai` | ⚪ 规划中 | 待定 |
-| **DeepSeek Navigator**| `chat.deepseek.com` | ⚪ 规划中 | 待定 |
+| **ChatGPT Navigator**| `chatgpt.com` | 🟢 已完成 | `/chatgpt` |
+| **Claude Navigator** | `claude.ai` | 🟡 规划中 | 待定 |
+| **DeepSeek Navigator**| `chat.deepseek.com` | 🟡 规划中 | 待定 |
 
 ---
 
